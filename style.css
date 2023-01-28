@@ -12,22 +12,23 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 0.8px dotted;
+  height: 200px;
 }
 
 header img {
-  width: 40px;
-  height: 40px;
-  padding: 5px 20px;
+  width: 150px;
+  height: 150px;
+  padding: 5px 100px;
 }
 
 header ul {
-  padding: 5px 20px;
+  padding: 5px 100px;
 }
 
 header ul li {
   display: inline;
-  font-size: 10px;
-  margin-left: 10px;
+  font-size: 25px;
+  margin-left: 20px;
 }
 
 header ul li a {
@@ -50,53 +51,54 @@ a:hover {
   /* background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  height: 100px;
+  height: 250px;
   margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   border-radius: 5px;
   position: relative;
 }
 p,
 aside h2 {
-  font-size: 9px;
+  font-size: 22px;
 }
 
 section {
-  margin: 10px 20px;
+  margin: 10px 100px;
 }
 
 section img {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
 }
 
 section article {
   float: left;
-  width: 300px;
+  width: 60%;
+  text-align: justify;
 }
 
 section article h2 {
-  font-size: 12px;
+  font-size: 30px;
 }
 
 section aside {
   float: right;
-  width: 150px;
+  width: 35%;
   text-align: center;
   background-color: #8b8a82;
   color: white;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   border-radius: 5px;
 }
 
 section aside p {
   text-align: justify;
-  padding: 0 5px;
+  padding: 0 20px;
 }
 .liens {
-  font-size: 9px;
+  font-size: 20px;
 }
 
 .liens i {
@@ -108,23 +110,25 @@ footer {
   clear: both;
   border-top: 0.8px dotted;
   display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .footer-item {
-  margin-left: 20px;
+  margin-right: 100px;
 }
 
 .footer-item img {
-  width: 60px;
-  height: 30px;
-  border: 2px solid lightblue;
+  width: 100px;
+  height: 50px;
+  border: 5px solid lightblue;
 }
 .footer-item h2 {
-  font-size: 10px;
+  font-size: 30px;
 }
 .footer-item p,
 .footer-item li {
-  font-size: 9px;
+  font-size: 25px;
 }
 
 .background-overlay {
@@ -133,7 +137,7 @@ footer {
   background-color: #81989a;
   opacity: 0.6;
   bottom: 0;
-  height: 30px;
+  height: 60px;
   z-index: 0;
   border-radius: 5px;
 }
@@ -148,19 +152,21 @@ footer {
   /* background-color: rgba(255, 255, 255, 0.5); */
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  height: 60px;
 }
 
 .sub-banner p {
   margin-left: 10px;
   z-index: 2;
+  font-size: 25px;
 }
 
 .sub-banner button {
   margin-right: 10px;
   background-color: #740909;
-  width: 80px;
+  width: 200px;
   color: white;
-  font-size: 10px;
+  font-size: 25px;
   border: none;
   padding: 5px;
   border-radius: 5px;
